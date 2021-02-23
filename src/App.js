@@ -57,7 +57,8 @@ class App extends Component {
         <button onClick={this.usernameClickHandler}>Change username</button>
 
         <br />
-        {/* Assignment 2 */}
+
+        {/* ASSIGNMENT 2 */}
         <input type="text" onChange={this.lenthChangeHandler} value={this.state.userInput} />
         <ValidationComponent userInput={this.state.userInput.length} />
         {this.state.userInput.length ? charList : null}
